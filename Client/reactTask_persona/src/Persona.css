@@ -1,0 +1,62 @@
+.addPersonaContainer
+{
+    border:2px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(138, 124, 128);
+    margin-top:65px;
+    margin-left:230px;
+    width:1100px;
+    height:450px;
+    overflow: auto;
+    padding-bottom: 5%;  
+}
+.addPersonaRight
+{
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    color:darkcyan;
+    margin-right:20px;
+    cursor: pointer;
+}
+.card-container
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.card
+{
+    border:2px solid lightgray;
+    border-radius:10px;
+    width:300px;
+    height:280px;
+    margin-top:50px;
+    margin-left:20px;
+    text-align: center;
+}
+.add
+{
+    border:lavender;
+    font-size:25px;
+    width:60px;
+    height:60px;
+    margin-top:90px;
+    border-radius:30px;
+    cursor: pointer;
+}
+.add:hover
+{
+    background-color: rgb(201, 197, 197);
+    color:black;
+}
+.cardImage img
+{
+    width: 100%;
+    height: 150px;
+    object-fit: "cover";
+}
+.cardContent
+{
+    line-height:6px;
+}

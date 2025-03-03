@@ -1,0 +1,40 @@
+.header{
+    color:green;
+    border:2px solid black;
+    border:none;
+    box-shadow: 5px 5px 5px rgb(138, 124, 128);
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+    height:80px;
+    margin-top:20px;
+}
+h1
+{
+    color:darkcyan;
+}
+h2
+{
+    margin-left:30px;
+}
+.btns
+{
+    display: flex;
+    gap:8px;
+    margin-right:20px;
+    margin-top:20px;
+    height:40px;
+}
+.login,.signup
+{
+    background-color: lightgray;
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.login:hover,.signup:hover
+{
+    background-color: green;
+    color: white;
+}
